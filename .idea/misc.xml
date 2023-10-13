@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/drawable/add_background.xml" value="0.1675" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/drawable/add_foreground.xml" value="0.1675" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/drawable/pinggir_rwyt.xml" value="0.1075" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/drawable/pinggiran.xml" value="0.1075" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_adapter_detail_karyawan.xml" value="0.2" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_adapter_riwayat_pesanan.xml" value="0.22" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_input_karyawan.xml" value="0.1953125" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_profil.xml" value="0.22" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_recycle_detail_kryn.xml" value="0.209375" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_riwayat_pesanan.xml" value="0.209375" />
+        <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/menu/bottom_nav.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

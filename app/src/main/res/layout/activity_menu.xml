@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenu">
+
+    <LinearLayout
+        android:id="@+id/kentang"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:background="@color/coklat"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/miegoreng"
+        app:layout_constraintTop_toTopOf="@+id/miegoreng">
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/menu6_removebg_preview_1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/french_fries" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rp_15_000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/miegoreng"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/coklat"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/cookies"
+        app:layout_constraintStart_toStartOf="@+id/cookies"
+        app:layout_constraintTop_toBottomOf="@+id/cookies">
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/menu5_removebg_preview_1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mie_goreng" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rp_23__000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kopisusu"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:background="@color/coklat"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/cookies"
+        app:layout_constraintTop_toTopOf="@+id/cookies">
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/menu4_removebg_preview_1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/kopi_susu" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rp_20_000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#DDC1A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/back_foreground" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_marginLeft="70dp"
+            app:srcCompat="@drawable/janjicuky" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/coklat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <LinearLayout
+        android:id="@+id/americano"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="124dp"
+        android:background="@color/coklat"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="106dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/cangkir" />
+
+        <ImageView
+            android:id="@+id/imageView67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/americano" />
+
+        <ImageView
+            android:id="@+id/imageView79"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rp_15_000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cookies"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/coklat"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/americano"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/americano"
+        app:layout_constraintTop_toBottomOf="@+id/americano">
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/cookies" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cookiesnama" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rp_12_000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/arabika"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:background="@color/coklat"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/americano"
+        app:layout_constraintTop_toTopOf="@+id/americano">
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/kopicup" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/arabika" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rp_17_000" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

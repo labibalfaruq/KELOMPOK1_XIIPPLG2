@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="home"
+        android:id="@+id/home"
+        android:icon="@drawable/home"/>
+    <item android:title="karyawan"
+        android:id="@+id/karyawan"
+        android:icon="@drawable/karyawan"/>
+    <item android:title="pesan"
+        android:id="@+id/pesan"
+        android:icon="@drawable/pesan"/>
+    <item android:title="data"
+        android:id="@+id/data"
+        android:icon="@drawable/data"/>
+    <item android:title="detail"
+        android:id="@+id/detail"
+        android:icon="@drawable/detail"/>
+
+
+</menu>
