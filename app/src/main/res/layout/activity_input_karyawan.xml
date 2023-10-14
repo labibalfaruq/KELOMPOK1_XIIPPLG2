@@ -49,11 +49,11 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="0dp"
         android:layout_height="60dp"
+        android:background="@color/coklat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav"
-        android:background="@color/coklat">
+        app:menu="@menu/bottom_nav">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
@@ -107,139 +107,121 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:srcCompat="@drawable/ellipse_8" />
 
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="24dp"
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/pinggiran"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
+        tools:ignore="SpeakableTextPresentCheck,UnknownId" />
+
 
     <ImageView
         android:id="@+id/imageView22"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="96dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/etID"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
+        app:layout_constraintTop_toTopOf="@+id/etID"
+        app:srcCompat="@drawable/id__" />
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="168dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/etNama"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/etID"
+        app:srcCompat="@drawable/nama__" />
+
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/pinggiran"
+        app:layout_constraintEnd_toEndOf="@+id/etID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etID"
+        app:layout_constraintTop_toBottomOf="@+id/etID"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="244dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:srcCompat="@drawable/alamat__" />
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/pinggiran"
+        app:layout_constraintStart_toStartOf="@+id/etNama"
+        app:layout_constraintTop_toBottomOf="@+id/etNama"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView25"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="324dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/ttl_" />
+
+    <EditText
+        android:id="@+id/etTanggallahir"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/pinggiran"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/etAlamat"
+        app:layout_constraintTop_toBottomOf="@+id/etAlamat"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView25"
-        app:srcCompat="@drawable/rectangle_19" />
-
-    <ImageView
-        android:id="@+id/imageView28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/imageView22"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
-        app:layout_constraintHorizontal_bias="0.863"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.792"
-        app:srcCompat="@drawable/id__" />
-
-    <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView22"
-        app:layout_constraintHorizontal_bias="0.59"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView28"
-        app:srcCompat="@drawable/nama__" />
-
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView23"
-        app:layout_constraintHorizontal_bias="0.82"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView29"
-        app:srcCompat="@drawable/ttl_" />
-
-    <ImageView
-        android:id="@+id/imageView32"
-        android:layout_width="92dp"
-        android:layout_height="18dp"
         android:layout_marginTop="56dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView24"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView31"
-        app:srcCompat="@drawable/alamat__" />
-
-    <ImageView
-        android:id="@+id/imageView33"
-        android:layout_width="88dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView25"
-        app:layout_constraintHorizontal_bias="0.307"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        app:layout_constraintStart_toStartOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
         app:srcCompat="@drawable/gender__" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/pinggiran"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/etTanggallahir"
+        app:layout_constraintTop_toBottomOf="@+id/etTanggallahir"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
         android:text="SIMPAN DATA"
-        android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="#534E4E"
+        android:backgroundTint="#DDC1A7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
