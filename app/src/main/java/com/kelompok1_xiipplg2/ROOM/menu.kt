@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 
-@Entity (tableName = "menucafe")
+@Entity (tableName = "menu")
 class menu (
     @PrimaryKey (autoGenerate = false)
     @ColumnInfo (name = "americano") val americano:String,
