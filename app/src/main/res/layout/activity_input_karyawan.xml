@@ -108,138 +108,164 @@
         app:srcCompat="@drawable/ellipse_8" />
 
     <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="96dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="168dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="244dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
-
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="290dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="324dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/rectangle_1" />
-
-    <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/btntambah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="68dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/rd"
         app:srcCompat="@drawable/rectangle_19" />
 
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/imageView22"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
-        app:layout_constraintHorizontal_bias="0.863"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/id"
+        app:layout_constraintHorizontal_bias="0.83"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.792"
+        app:layout_constraintTop_toTopOf="@+id/id"
         app:srcCompat="@drawable/id__" />
 
     <ImageView
         android:id="@+id/imageView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView22"
-        app:layout_constraintHorizontal_bias="0.59"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/namakaryawan"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/namakaryawan"
         app:srcCompat="@drawable/nama__" />
 
     <ImageView
         android:id="@+id/imageView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView23"
-        app:layout_constraintHorizontal_bias="0.82"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/TTL"
         app:srcCompat="@drawable/ttl_" />
 
     <ImageView
         android:id="@+id/imageView32"
         android:layout_width="92dp"
         android:layout_height="18dp"
-        android:layout_marginTop="56dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView24"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView31"
+        app:layout_constraintTop_toTopOf="@+id/alamat"
         app:srcCompat="@drawable/alamat__" />
 
     <ImageView
         android:id="@+id/imageView33"
         android:layout_width="88dp"
         android:layout_height="19dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView25"
-        app:layout_constraintHorizontal_bias="0.307"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        app:layout_constraintTop_toTopOf="@+id/rd"
         app:srcCompat="@drawable/gender__" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:text="SIMPAN DATA"
         android:textSize="20dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btntambah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+        app:layout_constraintTop_toTopOf="@+id/btntambah" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="224dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/pinggiran"
+        android:ems="10"
+        android:hint="  ID"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/namakaryawan"
+        android:layout_width="224dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pinggiran"
+        android:ems="10"
+        android:hint="NAMA KARYAWAN"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/id"
+        app:layout_constraintTop_toBottomOf="@+id/id" />
+
+    <EditText
+        android:id="@+id/TTL"
+        android:layout_width="224dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pinggiran"
+        android:ems="10"
+        android:hint="TTL"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/namakaryawan"
+        app:layout_constraintStart_toEndOf="@+id/imageView29"
+        app:layout_constraintTop_toBottomOf="@+id/namakaryawan" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="224dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pinggiran"
+        android:ems="10"
+        android:hint="ALAMAT"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/TTL"
+        app:layout_constraintStart_toEndOf="@+id/imageView31"
+        app:layout_constraintTop_toBottomOf="@+id/TTL" />
+
+    <RadioGroup
+        android:id="@+id/rd"
+        android:layout_width="185dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/alamat"
+        app:layout_constraintStart_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toBottomOf="@+id/alamat">
+
+        <RadioButton
+            android:id="@+id/lk"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="laki-laki" />
+
+        <RadioButton
+            android:id="@+id/pr"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="prempuan" />
+    </RadioGroup>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

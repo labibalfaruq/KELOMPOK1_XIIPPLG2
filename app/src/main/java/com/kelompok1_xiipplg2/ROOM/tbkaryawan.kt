@@ -10,7 +10,7 @@ data class tbkaryawan(
     @PrimaryKey(autoGenerate = false)
     @ColumnInfo(name = "id") val id : Int,
     @ColumnInfo(name = "nama") val nama : String,
-    @ColumnInfo(name = "tanggal lahir")  val tanggal_lahir : Date,
+    @ColumnInfo(name = "tanggal lahir")  val tanggal_lahir :String,
     @ColumnInfo(name = "alamat") val alamat : String,
     @ColumnInfo(name = "gender") val gender : String,
 )
