@@ -12,5 +12,5 @@ data class tbkaryawan(
     @ColumnInfo(name = "nama") val nama_karyawan : String,
     @ColumnInfo(name = "tanggal lahir")  val tanggal_lahir :String,
     @ColumnInfo(name = "alamat") val alamat_karyawan : String,
-    @ColumnInfo(name = "gender") val gender_karyawan : String,
+    @ColumnInfo(name = "gender") val gender_karyawan : String
 )
