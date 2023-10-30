@@ -6,4 +6,113 @@
     android:layout_height="match_parent"
     tools:context=".detail_pesanan">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="357dp"
+        android:layout_height="474dp"
+        android:background="@drawable/constrain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="348dp"
+            android:layout_height="468dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/totalharga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="144dp"
+            android:layout_marginBottom="24dp"
+            android:text="TOTAL : Rp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/nominal"
+            android:layout_width="103dp"
+            android:layout_height="29dp"
+            android:layout_marginBottom="24dp"
+            android:text="64.000.00;"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toEndOf="@+id/totalharga" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/coklat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#DDC1A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/back_foreground" />
+
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/detail_pesanandetail_pesanan" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_marginLeft="70dp"
+            app:srcCompat="@drawable/janjicuky" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.886"
+        app:srcCompat="@drawable/daftar_pesanandaftarpesanan" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

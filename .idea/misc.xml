@@ -27,7 +27,22 @@
         <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_recycle_detail_kryn.xml" value="0.16" />
         <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/layout/activity_riwayat_pesanan.xml" value="0.209375" />
         <entry key="..\:/KELOMPOK1_XIIPPLG2/app/src/main/res/menu/bottom_nav.xml" value="0.209375" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/drawable/add_background.xml" value="0.137" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/drawable/add_foreground.xml" value="0.137" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/drawable/constrain.xml" value="0.137" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/drawable/pinggir_rwyt.xml" value="0.137" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/drawable/pinggiran.xml" value="0.137" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/drawable/tmbahinput.xml" value="0.137" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_adapter_detail_karyawan.xml" value="0.20416666666666666" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_adapter_riwayat_pesanan.xml" value="0.20416666666666666" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_detail_pesanan.xml" value="0.20416666666666666" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_input_karyawan.xml" value="0.1" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_profil.xml" value="0.20416666666666666" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_recycle_detail_kryn.xml" value="0.20416666666666666" />
+        <entry key="..\:/kelompok1_xiipplg2/app/src/main/res/layout/activity_riwayat_pesanan.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
