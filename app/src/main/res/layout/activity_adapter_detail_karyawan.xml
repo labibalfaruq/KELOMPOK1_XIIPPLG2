@@ -32,6 +32,7 @@
             <EditText
                 android:id="@+id/ID_ADPTR_DTL"
                 android:layout_width="70dp"
+                android:text="ID"
                 android:layout_height="40dp"
                 android:background="@drawable/pinggiran"
                 tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
@@ -72,6 +73,7 @@
             <EditText
                 android:id="@+id/NamaADPTR_DTL"
                 android:layout_width="210dp"
+                android:text="NAMA"
                 android:layout_height="50dp"
                 android:layout_marginStart="20dp"
                 android:background="@drawable/pinggiran"
@@ -80,6 +82,7 @@
             <EditText
                 android:id="@+id/TGLADPTR_DTL"
                 android:layout_width="155dp"
+                android:text="tanggal lahir"
                 android:layout_height="50dp"
                 android:layout_marginStart="10dp"
                 android:background="@drawable/pinggiran"
@@ -123,6 +126,7 @@
                 android:id="@+id/AlamatADPTR_DTL"
                 android:layout_width="210dp"
                 android:layout_height="50dp"
+                android:text="ALAMAT"
                 android:layout_marginStart="20dp"
                 android:background="@drawable/pinggiran"
                 tools:ignore="SpeakableTextPresentCheck" />
@@ -131,6 +135,7 @@
                 android:id="@+id/GenderADPTR_DTL"
                 android:layout_width="155dp"
                 android:layout_height="50dp"
+                android:text="GENDER"
                 android:layout_marginStart="20dp"
                 android:background="@drawable/pinggiran"
                 tools:ignore="SpeakableTextPresentCheck" />

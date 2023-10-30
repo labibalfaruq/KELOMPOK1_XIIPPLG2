@@ -64,10 +64,12 @@ class recycle_detail_KRYN : AppCompatActivity() {
             withContext(Dispatchers.Main){
                 adapter.notifyDataSetChanged()
             }
+
         }
-       // binding.rec.adapter=adapterkaryawan
+        binding.rec.adapter=adapterkaryawan
 
     }
+
 
 
 }
