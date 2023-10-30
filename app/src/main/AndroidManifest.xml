@@ -23,7 +23,7 @@
             android:name=".recycle_detail_KRYN"
             android:exported="false" />
         <activity
-            android:name=".adapter_detail_karyawan"
+            android:name=".adapterkaryawan"
             android:exported="false" />
         <activity
             android:name=".ActivityMenu"
