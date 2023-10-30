@@ -108,17 +108,6 @@
         app:srcCompat="@drawable/ellipse_8" />
 
     <ImageView
-        android:id="@+id/btntambah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rd"
-        app:srcCompat="@drawable/rectangle_19" />
-
-    <ImageView
         android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -172,18 +161,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rd"
         app:srcCompat="@drawable/gender__" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SIMPAN DATA"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/btntambah"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btntambah" />
 
     <EditText
         android:id="@+id/id"
@@ -266,6 +243,18 @@
             android:layout_height="41dp"
             android:text="prempuan" />
     </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btntambah"
+        android:layout_width="220dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/tmbahinput"
+        android:text="TAMBAH DATA"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rd" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
