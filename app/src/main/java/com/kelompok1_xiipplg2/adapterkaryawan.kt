@@ -26,11 +26,11 @@ class adapterkaryawan (var list:ArrayList<tbkaryawan>):
     }
 
     override fun onBindViewHolder(holder: karyawanholder, position: Int) {
-        holder.nama.text=list[position].nama_karyawan
-        holder.idk.text=list[position].id_karyawan.toString()
-        holder.ttl.text=list[position].tanggal_lahir
-        holder.alamat.text=list[position].alamat_karyawan
-        holder.gender.text=list[position].gender_karyawan
+        //holder.nama.text=list[position].nama_karyawan
+       // holder.idk.text=list[position].id_karyawan.toString()
+        //holder.ttl.text=list[position].tanggal_lahir
+        //holder.alamat.text=list[position].alamat_karyawan
+        //holder.gender.text=list[position].gender_karyawan
     }
 
     override fun getItemCount(): Int {

@@ -33,7 +33,8 @@
             android:exported="false" />
         <activity
             android:name=".adapterkaryawan"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".ActivityMenu"
             android:exported="false" />
