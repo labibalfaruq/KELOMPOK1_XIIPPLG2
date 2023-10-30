@@ -53,6 +53,7 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec"
         android:layout_width="410dp"
         android:layout_height="600dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +62,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton3"
+        android:id="@+id/tmbah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="592dp"
