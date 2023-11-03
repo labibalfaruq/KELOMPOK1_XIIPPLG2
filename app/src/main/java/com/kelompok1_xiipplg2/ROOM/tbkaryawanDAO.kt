@@ -1,15 +1,20 @@
 package com.kelompok1_xiipplg2.ROOM
 
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.Query
 
 @Dao
 interface tbkaryawanDAO {
+
     @Insert
     fun simpan_data(vararg tbkaryawan: tbkaryawan)
 
     @Delete
-    fun hapus_data(tbkaryawan: tbkaryawan)
+    fun hapus_data (vararg tbkaryawan: tbkaryawan)
 
-    @Query("SELECT * FROM tbkaryawan")
+    @Query ("select * FROM tbkaryawan")
     fun tampil_semua():List<tbkaryawan>
+
 }

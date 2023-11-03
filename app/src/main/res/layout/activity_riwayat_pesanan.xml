@@ -42,6 +42,7 @@
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbottom"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:background="@color/coklat"
