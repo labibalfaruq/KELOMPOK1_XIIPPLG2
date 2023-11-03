@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/kentang"
-        android:layout_width="140dp"
-        android:layout_height="150dp"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
         android:layout_marginStart="48dp"
         android:background="@color/coklat"
         android:orientation="vertical"
@@ -17,8 +17,8 @@
         app:layout_constraintTop_toTopOf="@+id/miegoreng">
 
         <ImageView
-            android:layout_width="106dp"
-            android:layout_height="97dp"
+            android:layout_width="91dp"
+            android:layout_height="73dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/menu6_removebg_preview_1" />
 
@@ -36,12 +36,26 @@
             android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/rp_15_000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonmenu4"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/cklt_muda"
+            android:layout_gravity="right"
+            android:minHeight="48dp"
+            android:text="+"
+            android:textSize="27dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/miegoreng"
-        android:layout_width="140dp"
-        android:layout_height="150dp"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
         android:layout_marginTop="32dp"
         android:background="@color/coklat"
         android:orientation="vertical"
@@ -50,8 +64,8 @@
         app:layout_constraintTop_toBottomOf="@+id/cookies">
 
         <ImageView
-            android:layout_width="106dp"
-            android:layout_height="97dp"
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/menu5_removebg_preview_1" />
 
@@ -69,12 +83,26 @@
             android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/rp_23__000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonmenu5"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/cklt_muda"
+            android:layout_gravity="right"
+            android:minHeight="48dp"
+            android:text="+"
+            android:textSize="27dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/kopisusu"
-        android:layout_width="140dp"
-        android:layout_height="150dp"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
         android:layout_marginStart="48dp"
         android:background="@color/coklat"
         android:orientation="vertical"
@@ -82,8 +110,8 @@
         app:layout_constraintTop_toTopOf="@+id/cookies">
 
         <ImageView
-            android:layout_width="106dp"
-            android:layout_height="97dp"
+            android:layout_width="94dp"
+            android:layout_height="77dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/menu4_removebg_preview_1" />
 
@@ -101,12 +129,26 @@
             android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/rp_20_000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonmenu6"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/cklt_muda"
+            android:layout_gravity="right"
+            android:minHeight="48dp"
+            android:text="+"
+            android:textSize="27dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_width="421dp"
+        android:layout_height="66dp"
         android:background="#DDC1A7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -151,10 +193,10 @@
 
     <LinearLayout
         android:id="@+id/americano"
-        android:layout_width="140dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="124dp"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
         android:background="@color/coklat"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
@@ -162,8 +204,8 @@
 
         <ImageView
             android:id="@+id/imageView62"
-            android:layout_width="106dp"
-            android:layout_height="97dp"
+            android:layout_width="96dp"
+            android:layout_height="82dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/cangkir" />
 
@@ -183,12 +225,26 @@
             android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/rp_15_000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonmenu1"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/cklt_muda"
+            android:layout_gravity="right"
+            android:minHeight="48dp"
+            android:text="+"
+            android:textSize="27dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/cookies"
-        android:layout_width="140dp"
-        android:layout_height="150dp"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
         android:layout_marginTop="32dp"
         android:background="@color/coklat"
         android:orientation="vertical"
@@ -198,8 +254,8 @@
         app:layout_constraintTop_toBottomOf="@+id/americano">
 
         <ImageView
-            android:layout_width="106dp"
-            android:layout_height="97dp"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             app:srcCompat="@drawable/cookies" />
 
@@ -217,12 +273,26 @@
             android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/rp_12_000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonmenu2"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/cklt_muda"
+            android:layout_gravity="right"
+            android:minHeight="48dp"
+            android:text="+"
+            android:textSize="27dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/arabika"
-        android:layout_width="140dp"
-        android:layout_height="150dp"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
         android:layout_marginStart="48dp"
         android:background="@color/coklat"
         android:orientation="vertical"
@@ -230,8 +300,8 @@
         app:layout_constraintTop_toTopOf="@+id/americano">
 
         <ImageView
-            android:layout_width="106dp"
-            android:layout_height="97dp"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             app:srcCompat="@drawable/kopicup" />
 
@@ -249,6 +319,20 @@
             android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/rp_17_000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonmenu3"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/cklt_muda"
+            android:layout_gravity="right"
+            android:minHeight="48dp"
+            android:text="+"
+            android:textSize="27dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
     </LinearLayout>
 
 
